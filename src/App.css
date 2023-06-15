@@ -1,8 +1,16 @@
+body{
+  background: rgb(0,2,3);
+  background: linear-gradient(135deg, rgba(0,2,3,1) 30%, rgba(185,188,54,1) 100%);
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background: rgb(0,2,3);
+  background: linear-gradient(90deg, rgba(0,2,3,1) 30%, rgba(185,188,54,1) 100%);
+  border-style: solid;
+  border-color: wheat;
 }
 
 .logo {
@@ -17,6 +25,22 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.puppy{
+  margin: 50px;
+  background: rgb(0,2,3);
+  background: linear-gradient(270deg, rgba(0,2,3,1) 30%, rgba(185,188,54,1) 100%);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-style: solid;
+  border-color: wheat;
+}
+.puppy h2{
+  text-decoration:underline;
+}
+
 
 @keyframes logo-spin {
   from {
