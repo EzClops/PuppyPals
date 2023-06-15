@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <p>{ featPupId && (
-        <div>
+        <div className='puppy'>
           <h2>{featuredPup.name}</h2>
           <ul>
             <li>Age: {featuredPup.age}</li>
